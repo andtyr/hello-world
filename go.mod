@@ -1,3 +1,3 @@
-module github.com/andtyr/hello-world
+module github.com/andtyr/hello-world2
 
 go 1.18

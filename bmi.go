@@ -1,20 +1,16 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
 	"strconv"
 	"strings"
 )
-
-var reader = bufio.NewReader(os.Stdin)
 
 func main() {
 	//output info
 	fmt.Println("BMI Calculator")
 	fmt.Println("-----------")
-	
+
 	//prompt for user input (w + h)
 	fmt.Print("Please enter your weight (kg): ")
 	weightInput, _ := reader.ReadString('\n')
